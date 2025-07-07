@@ -22,7 +22,7 @@ jobs:
  
       - name: run json file
         run: |
-         package.json | tee output.txt
+         nodejs package.json | tee output.txt
  
  
       - name: Upload production build
